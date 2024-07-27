@@ -9,7 +9,8 @@ public class Main {
         String userInput = scanner.nextLine();
         Integer convertedInput = Integer.parseInt(userInput);
         int randomNumber = randomnum.nextInt(1, 101);
-        System.out.println("randomNumber = " + randomNumber);
+//        System.out.println("randomNumber = " + randomNumber);
+//        *Used during practicce in debug.
         int i = 0;
         while (i < 4) {
             if (convertedInput == randomNumber) {
